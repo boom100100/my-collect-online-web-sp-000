@@ -2,7 +2,7 @@ def my_collect(array)
   collection = []
   @n = 0
 
-  while @n < collection.length
+  while @n < array.length
     collection << yield(array[@n])
     @n = @n + 1
 
